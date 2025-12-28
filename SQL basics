@@ -1,0 +1,15 @@
+SQL: stands for Structured Query Language 
+Structured → works with organized data (tables, rows, columns)
+Query → you ask questions to the database
+Language → a formal way to communicate with databases
+
+SQL is used to create retrieve update and delete data from database. For example, if we have a business and want to keep track of transcations the; it is easier to keep track using data base than pen and paper
+
+We have two relations in SQL: relational and non-relational
+relational: forms table with rows and columns. tables with relational database can form relationship with one another and this is done by the concept keys (using SQL)
+non-relational: that is where our data is organized in any format but a table this can include json files key value pairs graph entities of that nature to utilize data in a rational database (Non SQL)
+
+The coding enviroment for SQL is DataBase Management system to write SQL statements and genuinly work with our database
+there are four SQL systems: MySQL: Microsoft SQL Server, ORACLE, Postgre SQL those systems differ between syntax of database managements system if you are fimiliar with database managment system. It is hard to 
+trnasitioning to another will take a little to no effort at all
+
