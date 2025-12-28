@@ -13,3 +13,6 @@ The coding enviroment for SQL is DataBase Management system to write SQL stateme
 there are four SQL systems: MySQL: Microsoft SQL Server, ORACLE, Postgre SQL those systems differ between syntax of database managements system if you are fimiliar with database managment system. It is hard to 
 trnasitioning to another will take a little to no effort at all
 
+Database: it is like container which has folder
+tables: on the other hand is the file inside that folder
+
