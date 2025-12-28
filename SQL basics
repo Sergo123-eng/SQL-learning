@@ -16,3 +16,5 @@ trnasitioning to another will take a little to no effort at all
 Database: it is like container which has folder
 tables: on the other hand is the file inside that folder
 
+SQL is not case sensitive when you create SQL page you write on the left side window create database uppercase or lower case then name your database like myDB you should end it with ; like period in English
+
