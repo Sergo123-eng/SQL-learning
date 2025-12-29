@@ -22,3 +22,7 @@ To create database uppercase or lower case then name your database like myDB you
 then click on the button on top the first left button to run the program 
 refresh the file and you will see two databases the one your created and another one called "sys" this is the internal database you will not use it 
 
+To use the database you created, right click on the database you created click set as default scheme or write a statement in the window but delete the old statement write:
+use my+ database name ; execute the statement
+to delete your database write: drop database+ database name ; data base you created is gone
+
