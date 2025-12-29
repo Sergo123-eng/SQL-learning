@@ -13,16 +13,22 @@ The coding enviroment for SQL is DataBase Management system to write SQL stateme
 there are four SQL systems: MySQL: Microsoft SQL Server, ORACLE, Postgre SQL those systems differ between syntax of database managements system if you are fimiliar with database managment system. It is hard to 
 trnasitioning to another will take a little to no effort at all
 
-Database: it is like container which has folder
-tables: on the other hand is the file inside that folder
+Database: it is like container which has folders and folders can hold files
+tables: those files are the tables
 
 SQL is not case sensitive when you create SQL page you write on the left side window 
 To create database uppercase or lower case then name your database like myDB you should end it with ; like period in English
+
  To create database create+ Database+ name your database ; upper or lower case
 then click on the button on top the first left button to run the program 
 refresh the file and you will see two databases the one your created and another one called "sys" this is the internal database you will not use it 
 
 To use the database you created, right click on the database you created click set as default scheme or write a statement in the window but delete the old statement write:
-use my+ database name ; execute the statement
+use + database name ; execute the statement
+
 to delete your database write: drop database+ database name ; data base you created is gone
+
+To set database to read only: Alter DataBase + name of your database Read only=1;( this statement will make our database read only)
+if our database in read only mode we cannot make modification to it but we cann access the data within
+to disable read mode set the pervious statement to 0 instead of 1 then you can drop your databse if you want
 
