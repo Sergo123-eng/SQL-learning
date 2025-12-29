@@ -16,5 +16,9 @@ trnasitioning to another will take a little to no effort at all
 Database: it is like container which has folder
 tables: on the other hand is the file inside that folder
 
-SQL is not case sensitive when you create SQL page you write on the left side window create database uppercase or lower case then name your database like myDB you should end it with ; like period in English
+SQL is not case sensitive when you create SQL page you write on the left side window 
+To create database uppercase or lower case then name your database like myDB you should end it with ; like period in English
+ To create database create+ Database+ name your database ; upper or lower case
+then click on the button on top the first left button to run the program 
+refresh the file and you will see two databases the one your created and another one called "sys" this is the internal database you will not use it 
 
