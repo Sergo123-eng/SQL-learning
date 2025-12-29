@@ -29,6 +29,53 @@ use + database name ; execute the statement
 to delete your database write: drop database+ database name ; data base you created is gone
 
 To set database to read only: Alter DataBase + name of your database Read only=1;( this statement will make our database read only)
+
 if our database in read only mode we cannot make modification to it but we cann access the data within
 to disable read mode set the pervious statement to 0 instead of 1 then you can drop your databse if you want
+
+DATA types:
+int: for integer whole number
+VARCHAR(maximum amount of characters): for series of text like String in java and python
+Decimal= for decimal number like double data value in java (total digits,digits after the decimal)
+Date: this makes you include the date
+Datetime: this makes you include date and time
+
+Tables: tables in database they consist of rows and columns like Excel spread sheet to create table:
+create table + name of the table that you want (
+    between parneheses we will list the data for columns  between each data and the other you should add comma and before comma you should add what type of data value will this be
+      employee_id INT,
+      first_name VARCHAR(50),
+      last_name VARCHAR(50),
+     hourly_pay Decimal(5,2),
+    hire_date Date,
+); after putting all the desired data execute then refresh then type select * from table name for the command above you will get only columns
+to rename your table: rename table current name to new name then refresh scheme window
+
+to drop table: drop table table name;
+alter table table name;
+add phone_number varchar(15); ( it will add new column)
+select* from employees;( it will show the table)
+*: means all
+
+To rename column: 
+Alter table employees
+rename column column name to another name;
+Select * from table name; execute
+
+to modify data type for column:
+alter table name of the table;
+modify column name of that column data type() 
+example:alter table employees;
+modify column email varchar(100);
+
+to move position of column:
+alter table employees
+mdoify email varchar(100)
+after last_name;( if you needed it to be first just type first)
+select* from employees;
+
+to drop column:
+alter table employees
+drop column name of the column
+select* from employees;
 
