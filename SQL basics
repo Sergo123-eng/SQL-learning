@@ -52,7 +52,7 @@ create table + name of the table that you want (
 to rename your table: rename table current name to new name then refresh scheme window
 
 to drop table: drop table table name;
-alter table table name;
+alter table table name
 add phone_number varchar(15); ( it will add new column)
 select* from employees;( it will show the table)
 *: means all
@@ -63,7 +63,7 @@ rename column column name to another name;
 Select * from table name; execute
 
 to modify data type for column:
-alter table name of the table;
+alter table name of the table; ALTER means "modify the structure" of something that already exists.
 modify column name of that column data type() 
 example:alter table employees;
 modify column email varchar(100);
@@ -78,4 +78,6 @@ to drop column:
 alter table employees
 drop column name of the column
 select* from employees;
+
+DESCRIBE income;( shows the columns in the table)
 
